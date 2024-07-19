@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, MotionConfig, AnimatePresence } from "framer-motion";
-import LoadingSpinner from "../../core/loading-spinner/loading-spinner";
-import Wrapper from "../../core/wrapper/wrapper";
+import { Wrapper, LoadingSpinner } from "../../core";
 
 export function ProgressButton() {
   const [section, setSection] = useState<0 | 1 | 2>(0);
