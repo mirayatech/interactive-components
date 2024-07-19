@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function LoadingSpinner() {
+export function LoadingSpinner() {
   return (
     <div className="spinner">
       <div></div>

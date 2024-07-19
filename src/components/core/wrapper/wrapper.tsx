@@ -5,7 +5,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
 }
 
-export default function Wrapper({ children, className, ...props }: Props) {
+export function Wrapper({ children, className, ...props }: Props) {
   return (
     <div
       className={cn(
